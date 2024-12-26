@@ -7,6 +7,6 @@
     "@nx/jest": "20.1.4",
     "@nx/js": "20.1.4",
     "@nx/plugin": "20.1.4",
-    "@nx/workspace": "20.1.4",
+    "@nx/workspace": "20.1.4"
   }
 }
