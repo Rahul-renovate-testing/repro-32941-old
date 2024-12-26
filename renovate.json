@@ -1,0 +1,7 @@
+{
+  "extends": ["monorepo:nrwl", "group:nrwlMonorepo"],
+  "packageRules": [{
+    "extends": ["monorepo:nrwl"],
+    "addLabels": ["nx"]
+  }]
+}
