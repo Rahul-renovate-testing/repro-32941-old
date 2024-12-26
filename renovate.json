@@ -3,5 +3,6 @@
   "packageRules": [{
     "extends": ["monorepo:nrwl"],
     "addLabels": ["nx"]
-  }]
+  }],
+  "configMigration": true
 }
