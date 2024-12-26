@@ -1,8 +1,17 @@
 {
-  "extends": ["monorepo:nrwl", "group:nrwlMonorepo"],
-  "packageRules": [{
-    "extends": ["monorepo:nrwl"],
-    "addLabels": ["nx"]
-  }],
+  "extends": [
+    "monorepo:nx",
+    "group:nxMonorepo"
+  ],
+  "packageRules": [
+    {
+      "extends": [
+        "monorepo:nx"
+      ],
+      "addLabels": [
+        "nx"
+      ]
+    }
+  ],
   "configMigration": true
 }
